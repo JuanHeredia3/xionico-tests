@@ -14,8 +14,8 @@ export default defineConfig({
   use: {
     baseURL: process.env.BASE_URL,
     trace: 'on-first-retry',
+    headless: false
   },
-
   projects: [
     {
       name: 'chromium',
